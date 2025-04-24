@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/courseController.js');
+const controller = require('../controllers/course.Controller.js');
 
 router.get('/api/courses', controller.fetchAllCourses);
 router.get('/api/courses/:id', controller.fetchCourseById);
