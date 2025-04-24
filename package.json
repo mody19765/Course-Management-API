@@ -1,7 +1,7 @@
 {
   "name": "course-mangement",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend task ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
