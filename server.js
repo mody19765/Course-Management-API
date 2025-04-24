@@ -1,10 +1,10 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const connectDB = require('./config/db.js');
+const  DBconnection = require('./config/dbConfig.js');
 const courseRoutes = require('./routes/course.routes.js');
 
 dotenv.config();
-connectDB();
+DBconnection();
 
 const app = express();
 app.use(express.json());
